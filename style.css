@@ -110,7 +110,8 @@ nav a:hover::after{
         margin-top: 2vh;
     }
     .boxs{
-        top: 30vh;
+        position: fixed;
+        top: 40vh;
         width: 36vh;
         height: 50vh;
     }
