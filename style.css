@@ -110,7 +110,7 @@ nav a:hover::after{
         margin-top: 2vh;
     }
     .boxs{
-        transform: translate(-50%,-70%);
+        top: 30vh;
         width: 36vh;
         height: 50vh;
     }
