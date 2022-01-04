@@ -3,6 +3,7 @@
     padding: 0%;
 }
 body{
+    position: relative;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
     url(image/kce_main.png);
     background-size: cover;
