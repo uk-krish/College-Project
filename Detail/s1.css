@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+
     margin: 0;
     padding: 0%;
 }
@@ -7,8 +7,7 @@ body{
     background: #0F2027;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #fff;
-}
+    color: #fff;}
 img{
     width: 50px;
 }
@@ -18,6 +17,7 @@ img{
     text-align: center;
 }
 .container{
+    
     position: absolute;
     width: 65vh;
     height: 80vh;
@@ -73,4 +73,17 @@ form{
 .sign:hover{
     background-color: rgb(10, 32, 155);
     transition: 0.5s;
+}
+@media (max-width:600px){
+    .container{
+        margin-top: -15px;
+        width: 40vh;
+    }
+    .head{
+        margin-top: 15px;
+        font-size: 25px;
+    }
+    .sign{
+        margin-left: 5vh;
+    }
 }
