@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0%;
+}
+body{
+    background-image: url(image/background.jpg);
+    background-size: cover;
+ }
+ #logo{
+   width: 50px;
+   margin: 20px;   
+ }
+.i-nav h3{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 42px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.container{
+    display: block;
+    position: absolute;
+    width: 85vh;
+    height: 65vh;
+    top: 5%;
+    background: rgba(27, 27, 27, 0.678);
+    left: 50%;
+    transform: translate(-50%,30%);
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px 1px rgb(146, 146, 146),-2px -0px 2px 1px rgb(146, 146, 146);
+    text-align: center;
+}
+.details{
+    font-family: 'Lexend', sans-serif;
+    margin-top: 8vh;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.password{
+    margin-top: 20px;
+}
+
+.box input{
+    width: 75%;
+    height: 5vh;
+    margin-top: 25px;
+    background: #ffffffe0;
+    border-radius: 50px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: none;
+    text-align: center;
+}
+.box input:hover{
+    border: 2px solid rgb(9, 142, 194);
+}
+.sign{
+    font-family: 'Roboto', sans-serif;
+    width:50%;
+    height: 7vh;
+    color: #fff;
+    background-color: #059BE5;
+    border: none;
+    margin-top: 5vh;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 22px;
+    font-weight: 800;
+}
+.sign:hover{
+    background-color: rgb(10, 32, 155);
+    transition: 0.5s;
+}
+.foot{
+    display: block;
+    position: relative;
+    font-weight: bold;
+    margin-top:5vh;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);        
+}
+@media (max-width:600px){
+    nav{
+        height: 10vh;
+    }
+    .i-nav h3{
+        margin-top: 26px;
+        font-size: 32px;
+    }
+    .container{
+        margin-top: 26px;
+        transform: translate(-50%,30%);
+        width: 36vh;
+        height: 55vh;
+    }
+    .box input{
+        width: 28vh;
+        margin: 0%;
+    }
+}
