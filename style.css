@@ -94,7 +94,6 @@ body{
     .container{
         position: fixed;
         margin-top: 26px;
-        transform: translate(-50%,30%);
         width: 36vh;
         height: 55vh;
     }
