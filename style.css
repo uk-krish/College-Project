@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
 *{
     margin: 0;
-    box-sizing: border-box;
     padding: 0%;
 }
 body{
@@ -25,10 +24,10 @@ body{
     position: absolute;
     width: 85vh;
     height: 65vh;
-    top: 5%;
     background: rgba(27, 27, 27, 0.678);
-    left: 50%;
-    transform: translate(-50%,30%);
+    align-items: center;
+    justify-content: center;
+    left: 30%;
     border-radius: 20px;
     box-shadow: 1px 1px 2px 1px rgb(146, 146, 146),-2px -0px 2px 1px rgb(146, 146, 146);
     text-align: center;
@@ -93,6 +92,7 @@ body{
         font-size: 32px;
     }
     .container{
+        position: fixed;
         margin-top: 26px;
         transform: translate(-50%,30%);
         width: 36vh;
